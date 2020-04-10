@@ -1,0 +1,59 @@
+@import "colors";
+/* You can add global styles to this file, and also import other style files */
+.center-item{
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+body, .modal-content{
+    //background-color: $blueShade300 !important;
+}
+.modal-footer{
+    border-top: 1px solid $blueShade400;
+    justify-content: center;
+}
+.modal-header{
+    border-bottom: 1px solid $blueShade400;
+}
+
+input.form-control, textarea.form-control, select.form-control{
+    background-color: $blueShade200;
+    //background-color: #608b3d;
+}
+input.form-control:focus, textarea.form-control:focus, select.form-control:focus {
+    color: #495057;
+    background-color: $blueShade200;
+    border-color: $blueShade300;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.jsb{
+    justify-content: space-between;
+}
+.btn-primary{
+    background-color: $blueShade500;
+    border-color: $blueShade500;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: $blueShade500;
+    border-color: $blueShade500;
+}
+.btn-primary:focus{
+    color: #fff;
+    background-color: $blueShade500;
+    border-color: $blueShade500;
+    box-shadow: 0 0 0 0.2rem $blueShade300;
+}
+.btn.active{
+    color: whitesmoke !important;
+    background-color: $blueShade400 !important;
+}
+.amazon-review-btn{
+ background-color: $yellowShade;   
+}
+
+.modal-backdrop, .fade
+{
+    opacity:0.9 !important;
+}

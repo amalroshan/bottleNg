@@ -1,0 +1,21 @@
+<div class="logo-wrapper">
+  <img class="logo-img" src="assets/logo.png"/>
+</div>
+<div class="container mt-5">	
+  <div class="wrapper">
+    <div class="arrow-steps clearfix">
+      <div class="step" [ngClass]="{'current': currentPage=='verify', 'completed':IsVerifyCompleted}"> <span>Verify Purchase</span> </div>
+      <div class="step" [ngClass]="{'current': currentPage=='experience', 'completed':IsExperienceCompleted}"> <span>Experience</span> </div>
+      <div class="step" [ngClass]="{'current': currentPage=='claim', 'completed':IsClaimCompleted}"> <span>Claim</span> </div>
+    </div>
+  </div>
+  <div class="step-content-wrapper mt-3">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+  
+<!-- <div routerLink="verify" disabled>Verify Purchase</div> > 
+<div routerLink="experience" disabled>Your Experience</div> > 
+<div routerLink="claim" disabled>Claim your Bottle</div>
+10% of Your Free Bottle is Filled -->
+
