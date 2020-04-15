@@ -1,11 +1,31 @@
-
-    <img class="verify-product-img" src="assets/product.png"/>
-    <div class="form-group my-4">
-        <label for="orderId">Amazon Order Id</label>
-        <input type="text" class="form-control center-item" style="width: 360px;" id="orderId" aria-describedby="orderIdHelp" placeholder="Enter your Order Id">
+<div class="d-flex j-center">
+        <div class="col-content">
+            <img class="float-right verify-product-img" src="assets/product.jpg"/>
+        </div>
+        <div class="col-content verify-form-wrapper p-3 ">
+            <div style="width: 360px; margin: auto;">
+                <div class="text-left">
+                    <div class="wt">
+                        Claim your second bottle of the
+                    </div>
+                    <div class="yt">
+                        MaxImmunity Elderberry Syrup
+                    </div>
+                    <div class="wt">
+                        for free!
+                    </div>
+                    </div>
+                    <div class="form-group my-4">
+                        <label class="wt" for="orderId">Enter the Amazon Order ID of your first <br>Elderberry Syrup purchase</label>
+                        <input type="text" class="form-control center-item" style="width: 310px;" id="orderId" aria-describedby="orderIdHelp" placeholder="Enter your Order Id">
+                    </div>
+                    <div class="text-center">
+                        <div id="orderIdHelp" class="">How to find your Order ID</div>
+                        <div>Go to 'Your Account' - Select 'Your Orders' - Find Your MaxImmunity Product - View Order Details</div>
+                        <button type="button" class="btn btn-primary mt-4" (click)="verify()">Verify</button>
+                    </div>  
+            </div>
     </div>
-    <div id="orderIdHelp" class="">To Find your Order Id: </div>
-    <div>Go to your account - Select your orders - Find your CHG product - View order details</div>
-    <button type="button" class="btn btn-primary mt-4" (click)="verify()">Verify</button>
+</div>
 
 

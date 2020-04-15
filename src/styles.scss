@@ -57,3 +57,40 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
 {
     opacity:0.9 !important;
 }
+.footer-logo-wrapper{
+    background-color: $greenShadeDark;
+    display: flex;
+    height: 120px;
+
+}
+.footer-logo-img{
+	height: 120px;
+    width:342.09px;
+    margin: auto;
+}
+.footer-text{
+    background-color: $greenShadeLight;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.footer-bottom{
+    background-color: $greenShadeDark;
+    color: white;
+    text-align: center;
+    height: 70px;
+    padding-top: 20px;
+}
+.wt{
+    color: white;
+}
+.yt{
+    color: $yellowShade;
+}
+.j-center{
+    justify-content: center;
+}
+.col-content{
+    //margin-left: 15px;
+    //margin-right: 15px;
+}

@@ -1,4 +1,10 @@
+@import "../../colors";
 .verify-product-img{
-    height:180px;
-    width: auto;
+    width:450px;
+    
+}
+.verify-form-wrapper{
+    background-color: $blueShade400;
+    width: 380px;
+    margin-left: -50px;
 }

@@ -53,7 +53,7 @@ a:hover {
 	min-width: 180px;
 	float: left;
 	position: relative;
-	background-color: $blueShade300;
+	background-color: $greenShadeDark;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -71,7 +71,7 @@ a:hover {
 	height: 0;
 	border-top: 21px solid transparent;
 	border-bottom: 20px solid transparent;
-	border-left: 17px solid $blueShade300;	
+	border-left: 17px solid $greenShadeDark;	
 	z-index: 2;
   transition: border-color 0.2s ease;
 }
@@ -114,19 +114,19 @@ a:hover {
 
 .arrow-steps .step.current {
 	color: $blueShade500;
-	background-color: $yellowShade;
+	background-color: $greenShadeLight;
 }
 
 .arrow-steps .step.current:after {
-	border-left: 17px solid $yellowShade;	
+	border-left: 17px solid $greenShadeLight;	
 }
 
 .arrow-steps .step.completed{
 	color: white;
-	background-color: $greenShadeLight;
+	background-color: $greenShadeDark;
 }
 .arrow-steps .step.completed:after {
-	border-left: 17px solid $greenShadeLight;
+	border-left: 17px solid $greenShadeDark;
 }
 .logo-wrapper{
 	background-color: #212651;
@@ -137,5 +137,4 @@ a:hover {
 	width:auto;
 }
 .step-content-wrapper{
-	text-align: center;
 }

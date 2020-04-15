@@ -7,13 +7,15 @@ import { ClaimBottleComponent } from './claim-bottle/claim-bottle.component';
 import { VerifyPurchaseComponent } from './verify-purchase/verify-purchase.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { FormsModule }   from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClaimBottleComponent,
     VerifyPurchaseComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
